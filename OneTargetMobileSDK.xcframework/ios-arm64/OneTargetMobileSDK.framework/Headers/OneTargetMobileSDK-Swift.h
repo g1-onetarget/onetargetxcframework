@@ -292,6 +292,7 @@ SWIFT_CLASS_NAMED("ObjCConfiguration")
 @property (nonatomic) BOOL autoAddOneTargetDestination;
 @property (nonatomic, copy) NSString * _Nonnull apiHost;
 @property (nonatomic, copy) NSString * _Nonnull oneTargetAppPushID;
+- (nonnull instancetype)initWithWriteKey:(NSString * _Nonnull)writeKey OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithWriteKey:(NSString * _Nonnull)writeKey flavor:(NSString * _Nullable)flavor OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithWriteKey:(NSString * _Nonnull)writeKey flavor:(NSString * _Nullable)flavor enableIAM:(BOOL)enableIAM OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;

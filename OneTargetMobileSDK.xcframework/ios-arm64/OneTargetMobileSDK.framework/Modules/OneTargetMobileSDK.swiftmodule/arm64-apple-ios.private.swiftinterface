@@ -267,6 +267,7 @@ extension Foundation.URLRequest {
 public typealias AdvertisingIdCallback = () -> Swift.String?
 public class Configuration {
   public init(writeKey: Swift.String, flavor: Swift.String?)
+  public init(writeKey: Swift.String)
   public init(writeKey: Swift.String, flavor: Swift.String?, enableIAM: Swift.Bool)
   @objc deinit
 }
@@ -512,6 +513,7 @@ extension OneTargetMobileSDK.OneTargetAnalytics {
     @objc get
     @objc set(value)
   }
+  @objc public init(writeKey: Swift.String)
   @objc public init(writeKey: Swift.String, flavor: Swift.String?)
   @objc public init(writeKey: Swift.String, flavor: Swift.String?, enableIAM: Swift.Bool)
   @objc deinit

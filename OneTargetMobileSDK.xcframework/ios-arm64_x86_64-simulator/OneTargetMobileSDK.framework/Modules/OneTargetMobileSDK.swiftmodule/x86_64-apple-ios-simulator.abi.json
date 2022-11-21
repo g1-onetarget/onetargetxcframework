@@ -8820,6 +8820,33 @@
           {
             "kind": "Constructor",
             "name": "init",
+            "printedName": "init(writeKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Configuration",
+                "printedName": "OneTargetMobileSDK.Configuration",
+                "usr": "s:18OneTargetMobileSDK13ConfigurationC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18OneTargetMobileSDK13ConfigurationC8writeKeyACSS_tcfc",
+            "mangledName": "$s18OneTargetMobileSDK13ConfigurationC8writeKeyACSS_tcfc",
+            "moduleName": "OneTargetMobileSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
             "printedName": "init(writeKey:flavor:enableIAM:)",
             "children": [
               {
@@ -14408,6 +14435,35 @@
           {
             "kind": "Constructor",
             "name": "init",
+            "printedName": "init(writeKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ObjCConfiguration",
+                "printedName": "OneTargetMobileSDK.ObjCConfiguration",
+                "usr": "c:@M@OneTargetMobileSDK@objc(cs)ONETARGETConfiguration"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@OneTargetMobileSDK@objc(cs)ONETARGETConfiguration(im)initWithWriteKey:",
+            "mangledName": "$s18OneTargetMobileSDK17ObjCConfigurationC8writeKeyACSS_tcfc",
+            "moduleName": "OneTargetMobileSDK",
+            "objc_name": "initWithWriteKey:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
             "printedName": "init(writeKey:flavor:)",
             "children": [
               {
@@ -17391,7 +17447,7 @@
       "kind": "StringLiteral",
       "offset": 374,
       "length": 7,
-      "value": "\"2.0.1\""
+      "value": "\"2.0.2\""
     },
     {
       "filePath": "\/Users\/admin\/development\/gitlabs\/onetarget-ios\/Sources\/OneTarget\/Configuration.swift",
